@@ -1,2 +1,2 @@
 # ahorcado
-Juego de ahorcado hecho con python y tkinter
+Juego de ahorcado hecho con python, tkinter y sqlite3
