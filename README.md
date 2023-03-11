@@ -4,11 +4,11 @@ Este es un juego de adivinanza de palabras, donde se debe adivinar la palabra oc
 El programa está escrito en Python usando la biblioteca Tkinter para la interfaz gráfica.
 
 Funciones
-select_pais()
+select_país()
 Función que selecciona una palabra aleatoria de una lista de países. Crea una tabla en la base de datos y agrega la palabra seleccionada en dicha tabla. Retorna la palabra con cada letra reemplazada por guiones.
 
 cambio_letras()
-Función que recibe una cadena de texto y devuelve cada caracter de la cadena como guiones bajos. Crea una tabla en la base de datos y agrega la cadena de guiones en dicha tabla.
+Función que recibe una cadena de texto y devuelve cada carácter de la cadena como guiones bajos. Crea una tabla en la base de datos y agrega la cadena de guiones en dicha tabla.
 
 comprobar_letras(letra)
 Función que recibe una letra ingresada por el usuario y comprueba si la letra se encuentra en la palabra oculta. Si la letra está en la palabra, se reemplazan los guiones por la letra en la posición correspondiente. Si la letra no está en la palabra, se disminuye el contador en 1.
